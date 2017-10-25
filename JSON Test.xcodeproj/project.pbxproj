@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180412A91F9F58CC007D7B84 /* AdditionalFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180412A81F9F58CC007D7B84 /* AdditionalFunctions.swift */; };
 		182BDE6F1F989E6900455D7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182BDE6E1F989E6900455D7F /* AppDelegate.swift */; };
-		182BDE711F989E6900455D7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182BDE701F989E6900455D7F /* ViewController.swift */; };
 		182BDE741F989E6900455D7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182BDE721F989E6900455D7F /* Main.storyboard */; };
 		182BDE761F989E6900455D7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182BDE751F989E6900455D7F /* Assets.xcassets */; };
 		182BDE791F989E6900455D7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182BDE771F989E6900455D7F /* LaunchScreen.storyboard */; };
+		182BDE811F98B51000455D7F /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182BDE801F98B51000455D7F /* CardsViewController.swift */; };
+		188D44411F9E5BBF009EAFB0 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188D44401F9E5BBF009EAFB0 /* CardCell.swift */; };
+		188D44431F9E5EF1009EAFB0 /* CardWithRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188D44421F9E5EF1009EAFB0 /* CardWithRequest.swift */; };
+		188D44451F9E8C5A009EAFB0 /* JSONManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188D44441F9E8C5A009EAFB0 /* JSONManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		180412A81F9F58CC007D7B84 /* AdditionalFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionalFunctions.swift; sourceTree = "<group>"; };
 		182BDE6B1F989E6900455D7F /* JSON Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JSON Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		182BDE6E1F989E6900455D7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		182BDE701F989E6900455D7F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		182BDE731F989E6900455D7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		182BDE751F989E6900455D7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		182BDE781F989E6900455D7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		182BDE7A1F989E6900455D7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182BDE801F98B51000455D7F /* CardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
+		188D44401F9E5BBF009EAFB0 /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+		188D44421F9E5EF1009EAFB0 /* CardWithRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardWithRequest.swift; sourceTree = "<group>"; };
+		188D44441F9E8C5A009EAFB0 /* JSONManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +63,15 @@
 			isa = PBXGroup;
 			children = (
 				182BDE6E1F989E6900455D7F /* AppDelegate.swift */,
-				182BDE701F989E6900455D7F /* ViewController.swift */,
+				182BDE801F98B51000455D7F /* CardsViewController.swift */,
+				188D44401F9E5BBF009EAFB0 /* CardCell.swift */,
+				188D44421F9E5EF1009EAFB0 /* CardWithRequest.swift */,
+				188D44441F9E8C5A009EAFB0 /* JSONManager.swift */,
 				182BDE721F989E6900455D7F /* Main.storyboard */,
 				182BDE751F989E6900455D7F /* Assets.xcassets */,
 				182BDE771F989E6900455D7F /* LaunchScreen.storyboard */,
 				182BDE7A1F989E6900455D7F /* Info.plist */,
+				180412A81F9F58CC007D7B84 /* AdditionalFunctions.swift */,
 			);
 			path = "JSON Test";
 			sourceTree = "<group>";
@@ -136,8 +148,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				182BDE711F989E6900455D7F /* ViewController.swift in Sources */,
+				180412A91F9F58CC007D7B84 /* AdditionalFunctions.swift in Sources */,
+				182BDE811F98B51000455D7F /* CardsViewController.swift in Sources */,
 				182BDE6F1F989E6900455D7F /* AppDelegate.swift in Sources */,
+				188D44411F9E5BBF009EAFB0 /* CardCell.swift in Sources */,
+				188D44451F9E8C5A009EAFB0 /* JSONManager.swift in Sources */,
+				188D44431F9E5EF1009EAFB0 /* CardWithRequest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5R44JKFPWH;
 				INFOPLIST_FILE = "JSON Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Maria-Semakova.JSON-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +309,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5R44JKFPWH;
 				INFOPLIST_FILE = "JSON Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Maria-Semakova.JSON-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
